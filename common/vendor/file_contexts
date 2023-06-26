@@ -1,3 +1,6 @@
+# Audio
+/vendor/bin/hw/android\.hardware\.audio\.service\.hisi u:object_r:vendor_hal_hisi_audio_exec:s0
+
 # Anti theft
 /vendor/bin/hw/vendor\.huawei\.hardware\.huaweiantitheft@1\.0-service u:object_r:vendor_hal_hisi_antitheft_exec:s0
 
