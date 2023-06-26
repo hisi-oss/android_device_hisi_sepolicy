@@ -32,6 +32,9 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.perfgenius@1\.0-service u:object_r:vendor_hal_hisi_perf_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.iawareperf@1\.0-service u:object_r:vendor_hal_hisi_perf_exec:s0
 
+# Power
+/vendor/bin/hw/vendor\.huawei\.hardware\.power@1\.0-service u:object_r:vendor_hal_hisi_power_exec:s0
+
 # Root
 /3rdmodem(/.*)?                                 u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?                              u:object_r:thirdmodemnvm_file:s0
