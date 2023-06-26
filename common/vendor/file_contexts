@@ -9,6 +9,9 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwdisplay\.displayengine@1\.0-service u:object_r:vendor_hal_hisi_display_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwdisplay@1\.0-service u:object_r:vendor_hal_hisi_display_exec:s0
 
+# DRM
+/vendor/bin/hw/android\.hardware\.drm@1\.0-service.widevine u:object_r:vendor_hal_drm_widevine_exec:s0
+
 # Root
 /3rdmodem(/.*)?                                 u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?                              u:object_r:thirdmodemnvm_file:s0
