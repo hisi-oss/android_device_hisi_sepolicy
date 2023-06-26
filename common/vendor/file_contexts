@@ -1,6 +1,9 @@
 # Anti theft
 /vendor/bin/hw/vendor\.huawei\.hardware\.huaweiantitheft@1\.0-service u:object_r:vendor_hal_hisi_antitheft_exec:s0
 
+# Biometrics
+/vendor/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@2\.1-service u:object_r:vendor_hal_hisi_biometrics_exec:s0
+
 # Root
 /3rdmodem(/.*)?                                 u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?                              u:object_r:thirdmodemnvm_file:s0
