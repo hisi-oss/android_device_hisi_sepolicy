@@ -18,6 +18,9 @@
 # GNSS
 /vendor/bin/hw/vendor\.huawei\.hardware\.gnss@1\.0-service u:object_r:vendor_hal_hisi_gnss_exec:s0
 
+# Hisi init
+/vendor/bin/hisi_init                           u:object_r:vendor_hisi_init_exec:s0
+
 # Light
 /vendor/bin/hw/vendor\.huawei\.hardware\.light@2\.0-service u:object_r:vendor_hal_hisi_light_exec:s0
 
