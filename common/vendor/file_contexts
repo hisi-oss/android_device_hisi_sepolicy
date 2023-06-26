@@ -4,6 +4,11 @@
 # Biometrics
 /vendor/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@2\.1-service u:object_r:vendor_hal_hisi_biometrics_exec:s0
 
+# Display
+/vendor/bin/hw/vendor\.huawei\.hardware\.graphics\.displayeffect@1\.0-service u:object_r:vendor_hal_hisi_display_exec:s0
+/vendor/bin/hw/vendor\.huawei\.hardware\.hwdisplay\.displayengine@1\.0-service u:object_r:vendor_hal_hisi_display_exec:s0
+/vendor/bin/hw/vendor\.huawei\.hardware\.hwdisplay@1\.0-service u:object_r:vendor_hal_hisi_display_exec:s0
+
 # Root
 /3rdmodem(/.*)?                                 u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?                              u:object_r:thirdmodemnvm_file:s0
