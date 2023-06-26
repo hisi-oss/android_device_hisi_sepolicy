@@ -39,6 +39,10 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.sensors@1\.0-service u:object_r:vendor_hal_hisi_sensors_exec:s0
 /vendor/bin/activity_recognition_service        u:object_r:vendor_hisi_sensors_exec:s0
 
+# Storage
+/vendor/bin/storage_info                        u:object_r:vendor_hisi_storage_exec:s0
+/vendor/bin/hwemerffu                           u:object_r:vendor_hisi_storage_exec:s0
+
 # Root
 /3rdmodem(/.*)?                                 u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?                              u:object_r:thirdmodemnvm_file:s0
