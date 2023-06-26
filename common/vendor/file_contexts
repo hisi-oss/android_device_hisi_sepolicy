@@ -77,3 +77,8 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.huaweisigntool@1\.0-service u:object_r:vendor_hal_hisi_misc_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwfs@1\.0-service u:object_r:vendor_hal_hisi_misc_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.otherdevices@1\.0-service u:object_r:vendor_hal_hisi_misc_exec:s0
+
+# Hisi binaries (misc)
+/vendor/bin/water_check                         u:object_r:vendor_hisi_misc_exec:s0
+/vendor/bin/check_root                          u:object_r:vendor_hisi_misc_exec:s0
+/vendor/bin/unrmd                               u:object_r:vendor_hisi_misc_exec:s0
