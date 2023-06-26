@@ -12,6 +12,9 @@
 # DRM
 /vendor/bin/hw/android\.hardware\.drm@1\.0-service.widevine u:object_r:vendor_hal_drm_widevine_exec:s0
 
+# Gatekeeper
+/vendor/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.software u:object_r:vendor_hal_gatekeeper_exec:s0
+
 # Root
 /3rdmodem(/.*)?                                 u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?                              u:object_r:thirdmodemnvm_file:s0
