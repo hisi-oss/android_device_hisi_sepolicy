@@ -52,3 +52,6 @@
 
 # TEE
 /sec_storage(/.*)?                              u:object_r:teecd_data_file:s0
+
+# Touchscreen
+/vendor/bin/hw/vendor\.huawei\.hardware\.tp@1\.0-service u:object_r:vendor_hal_hisi_touchscreen_exec:s0
