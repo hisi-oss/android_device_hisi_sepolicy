@@ -62,6 +62,7 @@
 
 # Touchscreen
 /vendor/bin/hw/vendor\.huawei\.hardware\.tp@1\.0-service u:object_r:vendor_hal_hisi_touchscreen_exec:s0
+/vendor/bin/aptouch_daemon                      u:object_r:vendor_hisi_touchscreen_exec:s0
 
 # Vibrator
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwvibrator@1\.0-service u:object_r:vendor_hal_hisi_vibrator_exec:s0
