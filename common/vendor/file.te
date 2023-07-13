@@ -6,8 +6,11 @@ type cust_file, file_type;
 type modem_nv_file, file_type;
 type modem_secure_file, file_type;
 type modem_log_file, file_type;
+type modem_om_file, file_type;
+type modemnvm_img_file, file_type;
 type splashtwo_file, file_type;
-type modem_fw_file, file_type, vendor_file_type;
+type modem_fw_file, file_type;
+type modem_fw_vendor_file, file_type, vendor_file_type;
 type version_file, file_type;
 
 # TEE
