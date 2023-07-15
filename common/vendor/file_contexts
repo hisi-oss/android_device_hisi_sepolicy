@@ -32,9 +32,6 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.jpegdec@1\.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.graphics\.mediacomm@2.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
 
-# NFC
-/vendor/bin/hw/vendor\.huawei\.hardware\.nfc@1\.0-service u:object_r:hal_nfc_default_exec:s0
-
 # Perf
 /vendor/bin/hw/vendor\.huawei\.hardware\.perfgenius@1\.0-service u:object_r:vendor_hal_hisi_perf_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.iawareperf@1\.0-service u:object_r:vendor_hal_hisi_perf_default_exec:s0
