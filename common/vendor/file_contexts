@@ -7,6 +7,15 @@
 # Biometrics
 /vendor/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@2\.1-service u:object_r:hal_fingerprint_default_exec:s0
 
+# Connectivity
+/vendor/bin/start_connectivity_hisi             u:object_r:vendor_hisi_connectivity_exec:s0
+/vendor/bin/octty                               u:object_r:vendor_hisi_connectivity_exec:s0
+/vendor/bin/oam_hisi                            u:object_r:vendor_hisi_connectivity_exec:s0
+/vendor/bin/gnss_engine_hisi                    u:object_r:vendor_hisi_connectivity_exec:s0
+/vendor/bin/gnss_control_hisi                   u:object_r:vendor_hisi_connectivity_exec:s0
+/vendor/bin/gnss_supl20clientd_hisi             u:object_r:vendor_hisi_connectivity_exec:s0
+/vendor/bin/gnss_watchlssd_thirdparty           u:object_r:vendor_hisi_connectivity_exec:s0
+
 # Display
 /vendor/bin/hw/vendor\.huawei\.hardware\.graphics\.displayeffect@1\.0-service u:object_r:vendor_hal_hisi_display_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwdisplay\.displayengine@1\.0-service u:object_r:vendor_hal_hisi_display_default_exec:s0
