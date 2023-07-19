@@ -37,12 +37,18 @@
 # HW factory interface
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwfactoryinterface@1\.1-service u:object_r:vendor_hal_hisi_hwfactoryinterface_default_exec:s0
 
+# HWFS
+/vendor/bin/hw/vendor\.huawei\.hardware\.hwfs@1\.0-service u:object_r:vendor_hal_hisi_hwfs_default_exec:s0
+
 # Light
 /vendor/bin/hw/vendor\.huawei\.hardware\.light@2\.0-service u:object_r:hal_light_default_exec:s0
 
 # Media
 /vendor/bin/hw/vendor\.huawei\.hardware\.jpegdec@1\.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.graphics\.mediacomm@2.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
+
+# Otherdevices
+/vendor/bin/hw/vendor\.huawei\.hardware\.otherdevices@1\.0-service u:object_r:vendor_hal_hisi_otherdevices_default_exec:s0
 
 # Perf
 /vendor/bin/hw/vendor\.huawei\.hardware\.perfgenius@1\.0-service u:object_r:vendor_hal_hisi_perf_default_exec:s0
@@ -92,8 +98,6 @@
 # Hisi hals (misc)
 /vendor/bin/hw/vendor\.huawei\.hardware\.hivrar@1\.0-service u:object_r:vendor_hal_hisi_misc_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.huaweisigntool@1\.0-service u:object_r:vendor_hal_hisi_misc_default_exec:s0
-/vendor/bin/hw/vendor\.huawei\.hardware\.hwfs@1\.0-service u:object_r:vendor_hal_hisi_misc_default_exec:s0
-/vendor/bin/hw/vendor\.huawei\.hardware\.otherdevices@1\.0-service u:object_r:vendor_hal_hisi_misc_default_exec:s0
 
 # Hisi binaries (misc)
 /vendor/bin/blkcginit                           u:object_r:vendor_blkcginit_exec:s0
