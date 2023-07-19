@@ -7,6 +7,9 @@
 # Biometrics
 /vendor/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@2\.1-service u:object_r:hal_fingerprint_default_exec:s0
 
+# Camera
+/vendor/bin/CameraDaemon u:object_r:hal_camera_default_exec:s0
+
 # Connectivity
 /vendor/bin/start_connectivity_hisi             u:object_r:vendor_hisi_connectivity_exec:s0
 /vendor/bin/octty                               u:object_r:vendor_hisi_connectivity_exec:s0
