@@ -11,3 +11,6 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
 BOARD_VENDOR_SEPOLICY_DIRS += \
     $(SEPOLICY_PATH)/common/vendor \
     $(SEPOLICY_PATH)/lineage/vendor
+
+# tmp
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
