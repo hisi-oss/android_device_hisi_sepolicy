@@ -1,9 +1,7 @@
 # Mount points
-type cust_file, file_type;
 type modem_file, file_type;
 type modem_vendor_file, file_type, vendor_file_type;
 type splashtwo_file, file_type;
-type version_file, file_type;
 
 # TEE
 type teecd_data_file, file_type;
