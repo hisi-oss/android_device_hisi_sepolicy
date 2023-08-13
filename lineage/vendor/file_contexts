@@ -1,2 +1,5 @@
 # Livedisplay
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service-hisi u:object_r:vendor_hal_lineage_livedisplay_hisi_default_exec:s0
+
+# Touch
+/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.hisi u:object_r:vendor_hal_lineage_touch_hisi_default_exec:s0
