@@ -5,7 +5,7 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.huaweiantitheft@1\.0-service u:object_r:vendor_hal_hisi_antitheft_default_exec:s0
 
 # Biometrics
-/vendor/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@2\.1-service u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@2\.[0-9]-service u:object_r:hal_fingerprint_default_exec:s0
 
 # Camera
 /vendor/bin/CameraDaemon u:object_r:hal_camera_default_exec:s0
@@ -64,7 +64,7 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.power@1\.0-service u:object_r:hal_power_default_exec:s0
 
 # Sensors
-/vendor/bin/hw/vendor\.huawei\.hardware\.sensors@1\.0-service u:object_r:hal_sensors_default_exec:s0
+/vendor/bin/hw/vendor\.huawei\.hardware\.sensors@1\.[0-9]-service u:object_r:hal_sensors_default_exec:s0
 /vendor/bin/activity_recognition_service        u:object_r:vendor_hisi_sensors_exec:s0
 
 # Storage
