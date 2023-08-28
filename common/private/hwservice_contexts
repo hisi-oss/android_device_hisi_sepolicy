@@ -11,7 +11,6 @@ vendor.huawei.hardware.hwdisplay::IDisplay                                  u:ob
 vendor.huawei.hardware.hwdisplay.displayengine::IDisplayEngineWrapper       u:object_r:vendor_hal_hisi_display_hwservice:s0
 vendor.huawei.hardware.hwfactoryinterface::IHwFactoryInterface              u:object_r:vendor_hal_hisi_hwfactoryinterface_hwservice:s0
 vendor.huawei.hardware.hwfs::IHwfs                                          u:object_r:vendor_hal_hisi_hwfs_hwservice:s0
-vendor.huawei.hardware.hwvibrator::IHWVibrator                              u:object_r:hal_vibrator_hwservice:s0
 vendor.huawei.hardware.iawareperf::IUniPerf                                 u:object_r:vendor_hal_hisi_perf_hwservice:s0
 vendor.huawei.hardware.libteec::ILibteecGlobal                              u:object_r:vendor_hal_hisi_libteec_hwservice:s0
 vendor.huawei.hardware.light::ILight                                        u:object_r:hal_light_hwservice:s0
