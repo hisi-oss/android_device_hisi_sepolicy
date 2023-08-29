@@ -43,6 +43,9 @@
 # HWFS
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwfs@1\.0-service u:object_r:vendor_hal_hisi_hwfs_default_exec:s0
 
+# Light
+/vendor/bin/hw/android\.hardware\.light-service\.hisi u:object_r:hal_light_default_exec:s0
+
 # Media
 /vendor/bin/hw/vendor\.huawei\.hardware\.jpegdec@1\.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.graphics\.mediacomm@2.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
