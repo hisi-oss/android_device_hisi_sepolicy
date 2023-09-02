@@ -62,6 +62,7 @@
 
 # Power
 /vendor/bin/hw/vendor\.huawei\.hardware\.power@1\.0-service u:object_r:hal_power_default_exec:s0
+/vendor/bin/hw/android\.hardware\.power-service\.hisi-libperfmgr u:object_r:hal_power_default_exec:s0
 
 # Sensors
 /vendor/bin/hw/vendor\.huawei\.hardware\.sensors@1\.[0-9]-service u:object_r:hal_sensors_default_exec:s0
