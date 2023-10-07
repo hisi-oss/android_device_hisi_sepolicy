@@ -102,9 +102,6 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.tp@1\.0-service u:object_r:vendor_hal_hisi_touchscreen_default_exec:s0
 /vendor/bin/aptouch_daemon                      u:object_r:vendor_hisi_touchscreen_exec:s0
 
-# Wifi
-/vendor/bin/mac_addr_normalization              u:object_r:vendor_hisi_wifi_exec:s0
-
 # Hisi hals (misc)
 /vendor/bin/hw/vendor\.huawei\.hardware\.hivrar@1\.0-service u:object_r:vendor_hal_hisi_misc_default_exec:s0
 /vendor/bin/hw/vendor\.huawei\.hardware\.huaweisigntool@1\.0-service u:object_r:vendor_hal_hisi_misc_default_exec:s0
