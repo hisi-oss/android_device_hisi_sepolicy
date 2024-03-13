@@ -44,7 +44,7 @@
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwfs@1\.0-service u:object_r:vendor_hal_hisi_hwfs_default_exec:s0
 
 # Light
-/vendor/bin/hw/android\.hardware\.light-service\.hisi u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light-service\.huawei u:object_r:hal_light_default_exec:s0
 
 # Media
 /vendor/bin/hw/vendor\.huawei\.hardware\.jpegdec@1\.0-service u:object_r:vendor_hal_hisi_media_default_exec:s0
@@ -62,7 +62,7 @@
 
 # Power
 /vendor/bin/hw/vendor\.huawei\.hardware\.power@1\.0-service u:object_r:hal_power_default_exec:s0
-/vendor/bin/hw/android\.hardware\.power-service\.hisi-libperfmgr u:object_r:hal_power_default_exec:s0
+/vendor/bin/hw/android\.hardware\.power-service\.huawei-libperfmgr u:object_r:hal_power_default_exec:s0
 
 # Sensors
 /vendor/bin/hw/vendor\.huawei\.hardware\.sensors@1\.[0-9]-service u:object_r:hal_sensors_default_exec:s0
