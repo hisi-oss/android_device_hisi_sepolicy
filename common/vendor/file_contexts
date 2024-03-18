@@ -43,6 +43,9 @@
 # Hisi init
 /vendor/bin/hisi_init                           u:object_r:vendor_hisi_init_exec:s0
 
+# Health
+/vendor/bin/hw/android\.hardware\.health-service\.hisi u:object_r:hal_health_default_exec:s0
+
 # HW factory interface
 /vendor/bin/hw/vendor\.huawei\.hardware\.hwfactoryinterface@1\.1-service u:object_r:vendor_hal_hisi_hwfactoryinterface_default_exec:s0
 
