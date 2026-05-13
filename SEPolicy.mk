@@ -14,3 +14,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 # tmp
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+SELINUX_IGNORE_NEVERALLOWS := true
